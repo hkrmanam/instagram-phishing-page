@@ -1,0 +1,74 @@
+.text{
+    text-align: center;
+    font-size: 50px;
+    margin-right: 38%;
+}
+
+
+
+.backdoor{
+    margin-left: 10%;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    border: none;
+    transition: 1s;
+    scale: 2;
+}
+
+.backdoor:hover{
+    transform: scale(2 , 2);
+}
+
+.bordersend1{
+    margin-left: 10%;
+    width: 307px;
+    height: 50px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    border: none;
+    transition: 1s;
+    scale: 2;
+}
+
+.bordersend1:hover{
+    transform: scale(2 , 2);
+}
+
+.background{
+    animation-name: WTF;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: flex;
+    background-color: palevioletred;
+    flex-direction: row-reverse;    
+}
+
+@keyframes WTF{
+    20% {background-color: red;}
+    52% {background-color: blue;}
+    78% {background-color: green;}
+    90% {background-color: yellow;}
+    100% {background-color: palevioletred;}
+}
+
+
+@font-face {
+    font-family: 'manm';
+    src:url('Fonts/Agbalumo-Regular.tff') format('truetype');
+    src:url('Fonts/Agbalumo-Regular.svg') format('svg');
+    src:url('Fonts/Agbalumo-Regular.woff') format('woff');
+    src:url('Fonts/Agbalumo-Regular.woff2') format('woff2');
+  }
+
+  .man{
+    font-family: manm;
+    direction: ltr;
+  }
+
+  .man2{
+    font-family: manm;
+  }
