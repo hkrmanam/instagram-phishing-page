@@ -1,0 +1,5 @@
+1. The div is centered
+2. The text is centered
+3. The text elements are centered
+4. Send button to the center
+5. The introduction text was moved to the left side of the page
