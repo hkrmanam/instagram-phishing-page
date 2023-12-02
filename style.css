@@ -1,13 +1,13 @@
 .text{
     text-align: center;
     font-size: 50px;
-    margin-right: 38%;
+    margin-right: 5%;
 }
 
 
 
 .backdoor{
-    margin-left: 10%;
+    margin-left: 40%;
     width: 300px;
     height: 50px;
     text-align: center;
@@ -23,7 +23,7 @@
 }
 
 .bordersend1{
-    margin-left: 10%;
+    margin-left: 40%;
     width: 307px;
     height: 50px;
     text-align: center;
@@ -42,9 +42,7 @@
     animation-name: WTF;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    display: flex;
-    background-color: palevioletred;
-    flex-direction: row-reverse;    
+    background-color: palevioletred;   
 }
 
 @keyframes WTF{
@@ -67,6 +65,7 @@
   .man{
     font-family: manm;
     direction: ltr;
+    padding-right: 80%;
   }
 
   .man2{
